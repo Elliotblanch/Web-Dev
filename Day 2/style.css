@@ -1,0 +1,44 @@
+body{
+    background-color: hotpink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    color:green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3{
+    color:rgb(24, 243, 221);
+}
+
+h6{
+    color: #290cb8;
+}
+
+img{
+    height:50%;
+    width: 70%;
+}
+
+p{
+    color:red;
+}   
+
+input{
+    background-color: aqua;
+    color: orange;
+}
+
+.TextContent{
+    background-color: green;
+}
+
+.TableImage{
+    height: 30px;
+}
+
+/* ID overwrites previous instructions, but keeps others that aren't specifically ovewritten */
+#password{
+    background-color: red;
+}

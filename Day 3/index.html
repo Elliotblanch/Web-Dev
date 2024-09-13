@@ -1,0 +1,102 @@
+<!-- Create boilerplate with ! + tab-->
+<!DOCTYPE html>
+<html lang="en"> <!-- Sets language to english -->
+<head>
+    <meta charset="UTF-8"> <!-- Sets character set to display on webpage -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sets page width to device width -->
+    <title>HTML Demo</title> <!-- Displays in browser tab -->
+    <link rel="icon" type="Image/x-icon" href="Doggo.jpg"> <!-- Tab icon -->
+    <link rel="stylesheet" href="style.css" type="text/css"> <!-- Linking external style sheet-->
+</head>
+<body > <!-- Displayed content-->
+    <header>
+        <nav>
+            <a href="https://code.visualstudio.com/Download">Download VScode here!</a> <!-- Links to other page, destination specified in href -->
+            <a href="Test.html">Test page here!</a>
+        </nav>
+    </header>
+        <h1>Welcome to my new webpage</h1> <!-- Headers display one above the other -->
+        <h3>I'ts great to have you!</h3>
+        <h6>I am a small heading!</h6>
+    <br>
+    <div class="TextContent">
+        <h1>This is my text content section</h1>
+        <p >This is my first text field</p>
+        <p>This is my second text field</p>
+        <p>Text can be <b>bold</b>, <i>italic</i>, <u>underlined</u> etc.</p> <!-- Text formatting -->
+    </div>
+    <p>This is a text paragraph</p>
+    <figure>
+        <!-- Image from web address -->
+        <img class="hiddenImage" src="https://th.bing.com/th/id/R.dd0a675c5a0fc3f562510567e48f40f7?rik=pI8XdTczXQZR3Q&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f4%2f47%2fAmerican_Eskimo_Dog.jpg&ehk=rKSpMCwabtGS%2fi8p6LAykGbAiO64dQHWPtw%2fMBIAYJE%3d&risl=&pid=ImgRaw&r=0" alt="Happy Pupper">
+        <!-- Image from local directory -->
+        <img src="doggo.jpg" alt="Bouncy Doggo">
+        <!-- Image from subfolder -->
+        <img src="Images/Swimming dog.jpg" alt="Wet Doggo">
+        <figcaption>Welcome to the dog zone</figcaption>
+    </figure>
+    <a href="Fakepage">Fake link</a>
+    <video width="600px"
+        height="400px"
+        controls="controls"
+        video src="YourVideoHere.mp4"
+        type="video/mp4">
+    </video>
+
+    <ul>
+        <li>Option 1</li>
+        <li>Option 2</li>
+        <li>Option 3</li>
+    </ul>
+    <ol>
+        <li>Yes</li>
+        <li>No</li>
+        <li>Maybe?</li>
+    </ol>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>age</th>
+            <th>Colour</th>
+        </tr>
+        <tr>
+            <td>Elliot</td>
+            <td>28</td>
+            <td>Cyan</td>
+        </tr>
+        <tr>
+            <td>John Default</td>
+            <td>37</td>
+            <td><img class="TableImage" src="Images/Swimming dog.jpg" alt="Wet Doggo"></td>
+        </tr>
+    </table>
+
+    <br>
+
+    <form action="Submit.html" method="get"> <!-- Get method, redirects on submission -->
+        <label for="email">Email:</label>
+        <input placeholder="johndefault@gmail.com" type="email" id="email"/> <!-- Self closing tag. No need for content -->
+        <label for="password">Password:</label>
+        <input type="password" id="password"/>
+        <input type="submit" id="submit" value="sign-In"/>
+    </form>
+    <form>
+        <input type="radio" value="HTML">HTML</input>
+        <input type="radio" value="CSS">CSS</input>
+        <br>
+        <input type="checkbox" value="NewLearner">
+        <label>Are you a new learner?</label>
+        <br>
+        <label>What course are you on?</label>
+        <select>
+            <option>Data</option>
+            <option>Software</option>
+        </select>
+    </form>
+    <br>
+    <button>Test Button</button>
+    <button>Click me!</button>
+
+</body>
+</html>

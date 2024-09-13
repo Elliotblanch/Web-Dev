@@ -1,0 +1,132 @@
+@media(max-width:600px){
+    body{
+        background-color: hotpink;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    h1{
+        color:green;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    h3{
+        color:rgb(24, 243, 221);
+    }
+
+    h6{
+        color: #290cb8;
+    }
+
+    img{
+        height:50%;
+        width: 50%;
+        background-color: yellow;
+        margin:30px;
+        border:10px solid limegreen;
+        padding: 20px;
+    }
+
+    p{
+        color:red;
+    }   
+
+    input{
+        background-color: aqua;
+        color: orange;
+    }
+
+    .TextContent{
+        background-color: green;
+        padding: 30px 0px;
+        border:10px solid blue;
+        margin: 50px;
+        margin-left:0px;
+    }
+
+    .TextContent h1{
+        background-color: white;
+    }
+
+    .TableImage{
+        height: 30px;
+    }
+
+    /* .hiddenImage{
+        visibility: hidden;
+    } */
+
+    /* ID overwrites previous instructions, but keeps others that aren't specifically ovewritten */
+    #password{
+        background-color: red;
+    }
+}
+
+
+/* media queries */
+@media(min-width: 601px){
+    body{
+        background-color: teal;
+    }
+}
+
+@media(min-width: 900px){
+    body{
+        background-color: yellow;
+    }
+}
+
+/* FLEXBOX*/
+
+.flex-container{
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Main axis alignment */
+    align-items: flex-end;   /* cross axis alignment */
+}
+
+.flex-item{
+    margin: 5px;
+    padding: 10px;
+}
+
+.flex-header{
+    align-self: center;
+    order: 2;
+}
+
+/* Grid Layout */
+
+.grid-container{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr); /* Setting our columns */
+   grid-template: auto;
+   border: 5px solid red;
+   grid-gap: 10px;
+}
+
+.grid-container p{
+ border: 3px solid brown;
+ height:200px;
+}
+
+.grid-item{
+    border: 4px solid blue;
+    text-align: center;
+}
+
+.grid-dog{
+    grid-column: 2;
+    grid-row:2 / span 2;
+    order: -1;
+}
+
+#grid-static-2b{
+   grid-column:2; 
+   grid-row:2;
+}
+
+#grid-static-3b{
+    grid-column:2; 
+    grid-row:3;
+ }
